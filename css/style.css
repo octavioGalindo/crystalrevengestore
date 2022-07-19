@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+nav ul {
+    font-family: pacifico;
+    background-color: #fcbef1;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+
+
+img {
+    border: 5px #fcbef1 solid;
+    width: 100%;
+
+}
+
+
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: pacifico;
+}
+
+.textoInicial{
+    font-family: pacifico;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 10px;
+
+}
+
+.fondo{
+    background-image: url(../imagenes/fondo.png);
+    background-position: center;
+    background-size: 400px;
+    display: grid;
+min-height: 100vh;
+grid-template-rows: auto 1fr auto;
+
+} 
+
+.textoInicialSaludo{
+    font-family: pacifico;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+h2 {
+text-align: center;
+font-family: pacifico;
+margin: 20px;
+}
+
+
+.quienesSomos {
+    font-family: pacifico;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 360px;
+    border: none;
+}
+
+
+.div-body{
+    width: 100%;
+}
+
+.avatarUno {
+    height: 270px;
+    width: 270px;
+    margin: 10px 41%;
+    border: none;
+    
+}
+
+.textoUno {
+    font-family: 
+    text-align center justify;
+
+}
+
+
+/*Apartado de tazas*/
+
+.tazas{
+display: flex;
+width: 100%;
+justify-content: space-around;
+flex-wrap: wrap;
+max-width: 1000px;
+margin: auto;
+
+}
+
+.imagenesTazas{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    transition: 0.5s; 
+}
+
+.imagenesTazas:hover{
+    transform: scale(1.2);
+}
+
+.textoTazas {
+    font-family: pacifico;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Apartado de Poleras*/
+
+
+.poleras {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.polerasImagenes {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    transition: 0.5s;  
+}
+
+.polerasImagenes:hover {
+    transform: scale(1.2);
+}
+
+.textoPoleras {
+    font-family: pacifico;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/*Apartado de Scrunchies*/
+
+
+.scrunchies {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.scrunchiesImagenes {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    transition: 0.5s;  
+}
+
+.scrunchiesImagenes:hover {
+    transform: scale(1.2);
+}
+
+.textoScrunchie {
+    font-family: pacifico;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/*Apartado de formulario de contacto*/
+
+
+.form {
+    width: 100%;
+    height: 100%;
+    font-family: pacifico;
+    display: grid;
+    place-items: center;
+    
+
+}
+
+
+/* Footer */
+
+.footer{
+    font-family: pacifico;
+    background-color: #fcbef1;
+    font-size: 20px;
+    bottom: 0;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
