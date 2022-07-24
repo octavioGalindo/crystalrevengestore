@@ -66,6 +66,7 @@ h2 {
 text-align: center;
 font-family: pacifico;
 margin: 20px;
+font-size: 35px;
 }
 
 
@@ -101,6 +102,8 @@ margin: 20px;
 
 
 /*Apartado de tazas*/
+
+
 
 .tazas{
 display: flex;
