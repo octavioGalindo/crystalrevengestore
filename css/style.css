@@ -6,16 +6,14 @@
     text-decoration: none;
 }
 
-nav {
-    text-decoration: none;
-}
+
 
 nav ul {
     font-family: pacifico;
     background-color: #fcbef1;
     text-align: center;
     font-size: 40px;
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -220,13 +218,27 @@ margin: auto;
 
 /* Footer */
 
-.footer{
+/* .footer{
     font-family: pacifico;
     background-color: #fcbef1;
     font-size: 20px;
     bottom: 0;
     display: inline-block;
+} */
+
+.texto-centro {
+    background-color: #f5d0ef;
+
 }
+
+.texto-abajo {
+    background-color:#bbb0ff;
+}
+
+.color-boton{
+    background-color: #887bd5;
+}
+
 
 
 @media (max-width:900px) {
