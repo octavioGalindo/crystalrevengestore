@@ -31,6 +31,20 @@ font-size: 28px;
     font-size: 10px;  
     }
 
+.h5-carrusel-tazas {
+    color: black;
+}
+
+
+
+.tam-carrusel{
+    max-width: 1600px;
+    max-height: 420px;
+}
+
+
+
+
 
 img {
     border: 5px #fcbef1 solid;
