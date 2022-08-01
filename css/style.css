@@ -32,17 +32,11 @@ font-size: 28px;
     }
 
 
-
-
-
-
-
 img {
     border: 5px #fcbef1 solid;
     width: 100%;
 
 }
-
 
 
 nav li {
@@ -94,21 +88,16 @@ font-size: 35px;
     text-align: center;
 }
 
-/* .banner {
-    width: 100%;
-    height: 360px;
-    border: none;
-} */
 
-
-.div-body{
-    width: 100%;
-}
 
 .avatarUno {
-    height: 270px;
-    width: 270px;
-    margin: 10px 41%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 50px;
+    max-width: 300px;
+    max-height: 300px;
     border: none;
     
 }
