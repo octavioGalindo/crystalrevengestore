@@ -51,6 +51,7 @@ nav li {
 h1 {
   text-align: center;
   font-family: pacifico;
+  margin-top: 50px;
 }
 
 .textoInicial {
@@ -103,14 +104,23 @@ h2 {
 }
 
 /*Apartado de tazas*/
-.tazas {
+.tarjeta-taza {
   display: flex;
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1000px;
-  margin: auto;
+  margin: auto; 
+  
 }
+
+.alinear-tarjeta {
+  display: grid;
+
+}
+
+
+
 
 .imagenesTazas {
   width: 300px;
@@ -129,6 +139,7 @@ h2 {
   font-family: pacifico;
   text-align: center;
   font-size: 20px;
+  margin-top: 50px;
 }
 
 /*Apartado de Poleras*/
@@ -158,6 +169,7 @@ h2 {
   font-family: pacifico;
   text-align: center;
   font-size: 20px;
+  margin-top: 50px;
 }
 
 /*Apartado de Scrunchies*/
@@ -187,6 +199,7 @@ h2 {
   font-family: pacifico;
   text-align: center;
   font-size: 20px;
+  margin-top: 50px;
 }
 
 /*Apartado de formulario de contacto*/
@@ -225,9 +238,7 @@ h2 {
   font-family: pacifico;
 }
 
-.carrusel-sin-borde {
-  margin-top: 0, 0, 0, 0;
-  padding: 0, 0, 0, 0;
+.tarjeta-taza {
+  margin-top: 50px;
 }
-
 
