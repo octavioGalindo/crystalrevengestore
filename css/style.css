@@ -228,11 +228,7 @@ h2 {
   background-color: #ffa5ef;
 }
 
-@media (max-width: 900px) {
-  .footer {
-    display: none;
-  }
-}
+
 .texto-abajo {
   font-family: pacifico;
 }
@@ -241,3 +237,8 @@ h2 {
   margin-top: 50px;
 }
 
+@media (max-width: 900px) {
+  .footer {
+    display: none;
+  }
+}
