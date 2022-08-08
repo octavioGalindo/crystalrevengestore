@@ -39,7 +39,7 @@
 }
 
 img {
-  border: 5px #fcbef1 solid;
+  border: 5px #bbb0ff solid;
   width: 100%;
 }
 
@@ -191,11 +191,9 @@ h2 {
 
 /*Apartado de formulario de contacto*/
 .form {
-  /* width: 100%;
-  height: 100%; */
+
   font-family: pacifico;
-  /* display: grid;
-  place-items: center; */
+
   position: absolute;
   top: 40%;
   bottom: 0px;
@@ -203,14 +201,7 @@ h2 {
   margin: auto;
 }
 
-/* Footer */
-/* .footer{
-    font-family: pacifico;
-    background-color: #fcbef1;
-    font-size: 20px;
-    bottom: 0;
-    display: inline-block;
-} */
+
 .texto-centro {
   background-color: transparent;
   font-size: 16px;
@@ -232,4 +223,11 @@ h2 {
 }
 .texto-abajo {
   font-family: pacifico;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.carrusel-sin-borde {
+  margin-top: 0, 0, 0, 0;
+  padding: 0, 0, 0, 0;
+}
+
+
