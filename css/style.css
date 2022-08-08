@@ -111,6 +111,8 @@ h2 {
   flex-wrap: wrap;
   max-width: 1000px;
   margin: auto; 
+  width: 700px;
+  height: 400px;
 }
 
 .imagenesTazas {
