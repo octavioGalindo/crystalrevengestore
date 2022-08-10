@@ -1,0 +1,252 @@
+
+  @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+
+  .tam-barra {
+    font-size: 30px;
+    
+  }
+  
+  .tam-titulo {
+    font-size: 28px;
+  }
+  
+  .tam-menu {
+    font-size: 20px;
+  }
+  
+  .tam-navbar {
+    font-size: 300px;
+    color: #bbb0ff;
+    font-family: pacifico;
+  }
+  
+  .intent-color {
+    background-color: #bbb0ff;
+    font-family: pacifico;
+    font-size: 10px;
+  }
+  
+
+  .tam-carrusel {
+    max-width: 1600px;
+    max-height: 420px;
+
+  }
+  
+  img {
+    border: 5px #bbb0ff solid;
+    width: 100%;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: pacifico;
+    margin-top: 50px;
+  }
+  
+  .textoInicial {
+    font-family: pacifico;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 10px;
+  }
+  
+  .fondo {
+    background-image: url(../imagenes/fondo.png);
+    background-position: center;
+    background-size: 400px;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  .textoInicialSaludo {
+    font-family: pacifico;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: pacifico;
+    margin: 20px;
+    font-size: 35px;
+  }
+  
+  .quienesSomos {
+    font-family: pacifico;
+    text-align: center;
+  }
+  
+  .avatarUno {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 50px;
+    max-width: 300px;
+    max-height: 300px;
+    border: none;
+  }
+  
+  .textoUno {
+    font-family: text-align center justify;
+  }
+  
+  /*Apartado de tazas*/
+  .tarjeta-taza {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto; 
+    width: 700px;
+    height: 400px;
+  }
+  
+  .imagenesTazas {
+    width: 700px;
+    height: 400px;
+    margin-bottom: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.2);
+    }
+  }
+  
+
+  
+  .textoTazas {
+    font-family: pacifico;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  
+  /*Apartado de Poleras*/
+  .poleras {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .polerasImagenes {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.2);
+    }
+  }
+  
+  .textoPoleras {
+    font-family: pacifico;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  
+  /*Apartado de Scrunchies*/
+  .scrunchies {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .scrunchiesImagenes {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: 0.5s;
+    &:hover{
+            transform: scale(1.2); }
+    }
+
+  .textoScrunchie {
+    font-family: pacifico;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  
+  /*Apartado de formulario de contacto*/
+  .form {
+  
+    font-family: pacifico;
+  
+    position: absolute;
+    top: 40%;
+    bottom: 0px;
+    left: 30%;
+    margin: auto;
+  }
+  
+
+/*Apartado de variables*/
+
+  $color-footer: #bbb0ff;
+  $color-botones-footer: #ffa5ef;
+
+
+
+
+
+  .texto-centro {
+    background-color: transparent;
+    font-size: 16px;
+  }
+  
+  .texto-abajo {
+    background-color: $color-footer;
+    font-size: 10px;
+  }
+  
+  .color-boton {
+    background-color: $color-botones-footer;
+  }
+  
+  
+  .texto-abajo {
+    font-family: pacifico;
+  }
+  
+  .tarjeta-taza {
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 900px) {
+    .footer {
+      display: none;
+    }
+  }
+
+
+
