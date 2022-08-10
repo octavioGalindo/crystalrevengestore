@@ -1,5 +1,6 @@
 
   @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+  @import "variables";
 
 
   * {
@@ -209,16 +210,6 @@
     margin: auto;
   }
   
-
-/*Apartado de variables*/
-
-  $color-footer: #bbb0ff;
-  $color-botones-footer: #ffa5ef;
-
-
-
-
-
   .texto-centro {
     background-color: transparent;
     font-size: 16px;
