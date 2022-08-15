@@ -90,9 +90,9 @@ h2 {
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1000px;
-  margin: auto;
-  width: 700px;
-  height: 400px; }
+  /* width: 700px;
+  height: 400px; */
+  margin: auto; }
 
 .imagenesTazas {
   width: 700px;
