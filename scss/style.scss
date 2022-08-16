@@ -2,6 +2,7 @@
   @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
   @import "variables";
   @import "maps"; 
+  @import "mixin";
 
 
   * {
@@ -22,6 +23,10 @@
   
   .tam-menu {
     font-size: 20px;
+  }
+
+  .margen-de-titulo {
+margin-top: 20px;
   }
   
   .tam-navbar {
