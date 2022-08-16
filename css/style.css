@@ -84,6 +84,7 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
   size: 50px;
   max-width: 300px;
   max-height: 300px;
@@ -93,16 +94,15 @@ h2 {
   font-family: text-align center justify; }
 
 /*Apartado de tazas*/
-
 .tarjeta-taza {
   display: flex;
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 100%;
-  /* width: 700px;
-  height: 400px; */
-  margin: auto; }
+  max-width: 1000px;
+  margin: auto;
+  width: 700px;
+  height: 400px; }
 
 .imagenesTazas {
   width: 700px;
@@ -146,7 +146,6 @@ h2 {
   margin-top: 50px; }
 
 /*Apartado de Scrunchies*/
-
 .scrunchies {
   display: flex;
   width: 100%;
