@@ -5,3 +5,5 @@ Poner de fondo una imagen con la bolsa del producto.
 Abajo una galería de fotos reales.
 
 Agregar un botón para wsp.
+
+Arreglar el zoom dew la tarjeta de poleras.
