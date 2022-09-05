@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 /*Apartado de variables*/
+
+
 .facebook {
   color: red; }
 
@@ -10,27 +12,47 @@
   color: purple; }
 
 .info-tarjeta {
-  font-family: pacifico;
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
+  font-family: 'Boogaloo', cursive;
+  font-size: 25px;
   margin-top: 10px;
-  padding-left: 10px; }
+  margin-left: 50%;
+  }
+
+  .boton-tarjeta{
+    font-family: 'Boogaloo', cursive;
+    margin-left: 65%;
+    font-size: 25px;
+
+  }
 
 * {
   padding: 0;
   margin: 0;
   text-decoration: none; }
 
+
 .tam-barra {
-  font-size: 30px; }
+  font-size: 20px; }
 
 .tam-titulo {
   font-size: 28px; }
 
 .tam-menu {
-  font-size: 20px;
-display: flex; }
+font-size: 30px;
+display: flex;
+font-family: 'Boogaloo', cursive;
+}
+
+.crs-titulo {
+  font-size: 40px;
+  font-family: 'Boogaloo', cursive;
+  color: #6629c4;
+  
+}
+
+.color-texto-nav {
+color: #fff9f9;
+}
 
 .margen-de-titulo {
   margin-top: 20px; }
@@ -38,7 +60,7 @@ display: flex; }
 .tam-navbar {
   font-size: 20px;
   color: #bbb0ff;
-  font-family: pacifico;
+  font-family: 'Carrois Gothic SC', sans-serif;
   max-width: 100%; }
 
 .intent-color {
@@ -48,7 +70,9 @@ display: flex; }
 
 .tam-carrusel {
   max-width: 1600px;
-  max-height: 420px; }
+  max-height: 420px;
+  margin-top: 20px;
+ }
 
 img {
   border: 5px #bbb0ff solid;
@@ -58,16 +82,18 @@ nav li {
   display: inline-block;
   padding: 10px; }
 
-h1 {
-  text-align: center;
-  font-family: pacifico;
-  margin-top: 50px; }
 
 .textoInicial {
-  font-family: pacifico;
+  font-family: 'Boogaloo', cursive;
+  font-weight: 10;
   text-align: center;
   font-size: 25px;
-  margin: 0 10px; }
+  margin: 0 10px;
+ color: #6629c4; }
+
+ .biografia{
+  color:#6629c4 ;
+ }
 
 .fondo {
   background-image: url(../imagenes/fondo.png);
@@ -80,16 +106,17 @@ h1 {
  }
 
 .textoInicialSaludo {
-  font-family: pacifico;
+  font-family: 'Boogaloo', cursive;
   text-align: center;
   font-size: 30px;
   margin: 0 10px; }
 
-h2 {
+h1 {
   text-align: center;
-  font-family: pacifico;
+  font-family: 'Boogaloo', cursive;
   margin: 20px;
-  font-size: 35px; }
+  font-size: 50px;
+color: #6629c4; }
 
 .quienesSomos {
   font-family: pacifico;
@@ -204,10 +231,10 @@ h2 {
   font-size: 10px; }
 
 .color-boton {
-  background-color: #ffa5ef; }
+  background-color: #6629c4; }
 
 .texto-abajo {
-  font-family: pacifico; }
+  font-family: 'Boogaloo', cursive;}
 
 .tarjeta-taza {
   margin-top: 50px; }
